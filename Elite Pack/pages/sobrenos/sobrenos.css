@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    padding: 0 30px;
+    height: 70px;
+}
+
+.logo img {
+    max-height: 110px;
+    align-items: center;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.destacar {
+    background-color: #E61E4D;
+    color: white !important;
+    border-radius: 8px;       
+    font-weight: bold;
+    width: auto;              
+    padding: 10px 20px;       
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: none;        
+    cursor: pointer;          
+    transition: background 0.3s ease;
+}
+
+.destacar:hover {
+    background-color: #c61b44; 
+}
+
+.texto1 {
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-image: url(./imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;    
+}
+
+.texto1 h1 {
+    max-width: 900px;
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.historia {   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+    padding: 50px 60px;             
+    flex-wrap: wrap;
+    background-color: #fff;        
+}
+
+.historia .imagem1, .historia .hist {
+    flex: 1;
+    min-width: 300px;
+}
+
+.historia h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.historia h3 {
+    font-size: 16px;                
+    font-weight: normal;            
+    margin-bottom: 20px;
+    color: #333;                    
+}
+
+.objetivo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 60px;
+    flex-wrap: wrap;
+    background-color: #DAEDFE;
+}
+
+.objetivo .obje, .objetivo .imagem2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.objetivo h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.objetivo h3 {
+    font-size: 16px;                
+    font-weight: normal;            
+    margin-bottom: 20px;
+    color: #333;  
+}
+
+.imagem2 img {
+    max-width: 600px;
+    max-height: 362px;
+    width: 100%;
+    height: auto;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 60px;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.valores .val, .valores .imagem3 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.valores h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.valores h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.valores ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.valores ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.imagem3 img {
+    max-width: 600px;
+    max-height: 362px;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 6px;
+    padding: 20px 30px;             
+    flex-wrap: wrap;
+    background-color:#4A90E2; 
+    text-align: left;       
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.links {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.links a, .links span {
+    color:white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 8px;
+    border-left: 1px solid white;
+}
+
+.links a:first-child {
+    padding-left: 0;
+    border-left: none;           
+}
+
+.end {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tel {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.direitos {
+    margin-top: 15px;
+    margin-bottom: 1px;
+    color: white;
+}

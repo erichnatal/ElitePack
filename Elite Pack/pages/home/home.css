@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    padding: 0 30px;
+    height: 70px;
+}
+
+.logo img {
+    max-height: 110px;
+    align-items: center;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.destacar {
+    background-color: #E61E4D;
+    color: white !important;
+    border-radius: 8px;       
+    font-weight: bold;
+    width: auto;              
+    padding: 10px 20px;       
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: none;        
+    cursor: pointer;          
+    transition: background 0.3s ease;
+}
+
+.destacar:hover {
+    background-color: #c61b44; 
+}
+
+.texto1 {
+    color: #5CACE2 !important;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.texto1 h3 {
+    max-width: 900px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 0.8;
+}
+
+
+.imgprincipal img {
+    height: 575px;
+    width: 100%;
+}
+
+.principal {   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+    padding: 50px 60px;             
+    flex-wrap: wrap;
+    background-color: #fff;        
+}
+
+.texto2 {
+    max-width: 600px;
+}
+
+.texto2 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.texto2 h2 {
+    font-size: 16px;                
+    font-weight: normal;            
+    margin-bottom: 20px;
+    color: #333;                    
+}
+ 
+
+.destacar2 {
+    background-color: #E61E4D;
+    color: white !important;        
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 20px;             
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);             
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.destacar2:hover {
+    background-color: #c61b44;
+}
+
+.pcflor img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.retangulo1 {
+    background-color: #DAEDFE;
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: nowrap;                
+    overflow-x: auto;                 
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.retangulo1 .quad {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.retangulo1 .quad:hover {
+    transform: translateY(-5px);
+    
+}
+
+.retangulo1 .quad img {
+    width: 32px;    
+}
+
+.retangulo2 {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 50px 60px;             
+}
+
+.retangulo2 h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.retangulo2 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.retangulo3 {
+    background-color: #DAEDFE;
+    text-align: center;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 50px 60px;  
+}
+
+.retangulo3 img {
+    width: 62px;
+}
+
+.retangulo3 h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.retangulo3 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.retangulo4 {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 50px 60px;
+    margin-bottom: 20px;
+}
+
+.retangulo4 h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.retangulo4 h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 6px;
+    padding: 20px 30px;             
+    flex-wrap: wrap;
+    background-color:#4A90E2; 
+    text-align: left;       
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.links {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.links a, .links span {
+    color:white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 8px;
+    border-left: 1px solid white;
+}
+
+.links a:first-child {
+    padding-left: 0;
+    border-left: none;           
+}
+
+.end {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tel {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.direitos {
+    margin-top: 15px;
+    margin-bottom: 1px;
+    color: white;
+}

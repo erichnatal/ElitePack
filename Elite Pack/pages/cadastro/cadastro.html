@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>ElitePack - Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./imagens/logo.png">
+    </header>
+    <div class="container">
+       <div class="container-login">
+            <h1>Cadastre sua empresa</h1>
+            <form action = "" id="form">
+                <div class="input-field">
+                    <div class="input-section">
+                        <label>E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu@email.com">
+                    </div>
+                    <div class="input-section">
+                        <label>Seu Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+                    </div>
+                    <div class="input-section">
+                        <label>Nome da Empresa</label>
+                        <input type="text" name="empresa" id="empresa" placeholder="Insira o nome da sua empresa">
+                    </div>
+                    <div class="input-section">
+                        <label>CNPJ</label>
+                        <input type="text" name="cnpj" id="cnpj" placeholder="Insira o CNPJ da sua empresa">
+                    </div>
+                    <div class="input-section">
+                        <label>Quantidade de funcionários</label>
+                        <select name="qntd" id="qntd">
+                            <option value="">Selecione</option>
+                            <option value="1-50">1-50</option>
+                            <option value="51-100">51-100</option>
+                            <option value="100+">100+</option>
+                        </select>
+                    </div>
+                    <div class="input-section">
+                        <label>Senha<label>
+                        <input type="password" name="password" id="password" placeholder="Insira sua senha">
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="container-imagem">
+            <img src="./imagens/login.png" alt="Login">
+        </div>
+    </div>
+</body>
+</html>
+

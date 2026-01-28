@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #f4f9ff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  padding: 0 30px;
+  height: 70px;
+}
+
+.logo img {
+  max-height: 110px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.destacar {
+  background-color: #E61E4D;
+  color: white !important;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.destacar:hover {
+  background-color: #c61b44;
+}
+
+.texto1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagens/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.intro {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.segmentos {
+  background-color: #e9f2fc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.segmentos h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+} 
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.funcionalidades {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.funcionalidades h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.funcionalidades ul {
+  list-style-type: "✔ ";
+  padding-left: 30px;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.beneficios {
+  background-color: #DAEDFE;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.beneficios p {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.destacar2 {
+  background-color: #E61E4D;
+  color: white !important;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 12px 26px;
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+.destacar2:hover {
+  background-color: #c61b44;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 20px 30px;
+  flex-wrap: wrap;
+  background-color: #4A90E2;
+  color: white;
+  text-align: left;
+}
+
+.titulo {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links a, .links span {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0 8px;
+  border-left: 1px solid white;
+}
+
+.links a:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+.end, .tel, .email, .direitos {
+  font-size: 16px;
+  font-weight: 400;
+}
